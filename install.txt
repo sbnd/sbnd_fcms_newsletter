@@ -1,0 +1,54 @@
+1) unpack "newsletter.v.1.1.rar" if not
+	1.1) Content of the src folder goes to there corespondent folders in the site's root.
+	For Example:
+	The .tpl file (located in: src\cp\themes\modern\tpl) should be placed in 
+	tpl folder (located in: cp\themes\modern\tpl) of the site's root
+	
+	Note: This action should be reapeated for all the files in the src folder of the Component.
+
+2) Create 2 new components (Go to Control Panel(cp) -> System -> Components -> Add) with the following values: 
+		
+	2.1) system name -> newsletter
+	2.2) PHP Class Name -> cmp/back/SendingEmails
+	2.3) public name -> News Letter
+
+
+	Click Save after adding above information.
+
+	
+	2.4) system name -> emailtemplates
+	2.5) PHP Class Name -> cmp/back/EmailTemplates
+	2.6) public name -> email Templates
+	
+
+	Click Save after adding above information.
+
+
+3) In control Panel choose > System > Components > Newsletter Edit
+	- go and check Participate in Admin Menu Group to show Newsletter in the main menu in the 	backend.
+
+	
+	Click Update after adding above information.
+
+
+Module Settings options - In control Panel choose > Newsletter in the main menu
+
+1) Send To All 
+
+	- If Yes send email to all registerd users. 
+	- If No you selection options.
+		- User Groups - select the user group to which you want to sent an email.
+		When select a group the users are list in Select Users list and you can edit the list
+		- Search Users - when start typing an username dinamic suggestions are shown below
+
+2) Email Template
+	- You can choose an one of the created templates to use. If empty, to create a template use the Email Template button et the bottom.
+
+3) subject - title of your message
+4) Message - main content of the message
+5) Attachment - for attaching a document or image
+
+
+This is all :)
+
+Thank you for your interest and enjoy with SBND CMS7.
