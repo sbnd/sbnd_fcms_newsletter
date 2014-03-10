@@ -1,0 +1,16 @@
+<!-- package name -->
+<name>Newsletter</name>
+<!-- package version -->
+<version>1.0</version>
+<!-- minimum cms version for this package -->
+<cms-version>7.0.6</cms-version>
+<!-- package description and help -->
+<description></description>
+
+<!-- package installation commangs or scripts -->
+<instal>
+	<php></php>
+	<sql>
+		
+	</sql>
+<install>

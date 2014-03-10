@@ -21,49 +21,24 @@
 * @package cms.controlers.back
 * @version 7.0.6
 */
-/**
- * Email Templates
- *
- * @author Tsvetan Ignatov
- * @version 0.1 [09-03-2012]
- * @package BASIC.SBND.NEWSLETTER
- */
-class EmailTemplates extends CmsComponent{
+BASIC::init()->imported("Profiles.cmp", "cms/controlers/back");
 
-    public $base			   = 'emailtemplates';
+class Members extends Profiles {
+	
 	function main(){
+
 		parent::main();
 		
-		$this->setField('title', array(
-			'text' => BASIC_LANGUAGE::init()->get('title')
+		$this->setField('unsubscribed', array(
+				'formtype' => 'none',
+				'dbtype' => 'int',
+				'defult' => 0
 		));
-		$this->setField('content', array( 
-			'text' => BASIC_LANGUAGE::init()->get('content'),
-			'formtype' => 'html',
-			'dbtype' => 'longtext'
-						
-		));
-		$this->ordering(true);
-	}
-	function ActionList(){ 
-		$this->map('title', BASIC_LANGUAGE::init()->get('title'), '', 'align=left');
 		
-		return parent::ActionList();
+		$this->setField('date_unsubscribed', array(
+				'formtype' => 'none',
+				'dbtype' => 'int'
+		));
 	}
-	function settingsData(){
-		return array(
-			'base' 			=> $this->base			
-		);
-	}
-	
-	function settingsUI(){
-		return array(
-			'base' => array(
-				'text' => BASIC_LANGUAGE::init()->get('db_table')	
-			),
-
-		);
-	}
-	
 	
 }
