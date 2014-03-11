@@ -2,7 +2,7 @@
 /**
 * SBND F&CMS - Framework & CMS for PHP developers
 *
-* Copyright (C) 1999 - 2013, SBND Technologies Ltd, Sofia, info@sbnd.net, http://sbnd.net
+* Copyright (C) 1999 - 2014, SBND Technologies Ltd, Sofia, info@sbnd.net, http://sbnd.net
 *
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -23,10 +23,9 @@
 */
 
 /**
- * newsletter
+ * SendingEmails
  *
- * @author Tsvetan Ignatov
- * @version 0.1 [09-03-2012]
+ * @version 2.0
  * @package BASIC.SBND.NEWSLETTER
  */
  

@@ -1,4 +1,4 @@
-1) unpack "catalog.v.2.0.rar" if not
+1) unpack "Newsletter.v.2.0" 
 	1.1) Content of the src folder goes to corresponding folders in the site's root.
 	For Example:
 	The .tpl file (located in: src\cp\themes\modern\tpl) should be placed in 
@@ -23,8 +23,7 @@
 	2.10) system name -> unsubscribed-members
 	2.11) PHP Class Name -> cmp/back/UnsubscribedMembers
 	2.12) public name -> Unsubscribed Members
-	
-	
+		
 	2.13) system name -> profiles
 	2.11) PHP Class Name -> cmp/Members
 	2.12) public name -> Users

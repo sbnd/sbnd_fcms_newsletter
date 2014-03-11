@@ -2,7 +2,7 @@
 /**
 * SBND F&CMS - Framework & CMS for PHP developers
 *
-* Copyright (C) 1999 - 2013, SBND Technologies Ltd, Sofia, info@sbnd.net, http://sbnd.net
+* Copyright (C) 1999 - 2014, SBND Technologies Ltd, Sofia, info@sbnd.net, http://sbnd.net
 *
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -18,9 +18,15 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 *
 * @author SBND Techologies Ltd <info@sbnd.net>
-* @package cms.controlers.back
 * @version 7.0.6
 */
+
+/**
+ * UnsubscribedMembers
+ *
+ * @version 2.0
+ * @package BASIC.SBND.NEWSLETTER
+ */
 
 class UnsubscribedMembers extends CmsComponent{
 	
